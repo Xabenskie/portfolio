@@ -5,14 +5,14 @@ if (localStorage.getItem('darkMode') === 'dark') {
 	document.body.classList.add('dark')
 }
 
-if (
-	window.matchMedia &&
-	window.matchMedia('(prefers-color-scheme: dark)').matches
-) {
-	btnDarkMode.classList.add('dark-mode-btn--active')
-	document.body.classList.add('dark')
-	localStorage.setItem('darkMode', 'dark')
-}
+// if (
+// 	window.matchMedia &&
+// 	window.matchMedia('(prefers-color-scheme: dark)').matches
+// ) {
+// 	btnDarkMode.classList.add('dark-mode-btn--active')
+// 	document.body.classList.add('dark')
+// 	localStorage.setItem('darkMode', 'dark')
+// }
 
 window
 	.matchMedia('(prefers-color-scheme: dark)')
