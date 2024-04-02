@@ -14,21 +14,21 @@ if (localStorage.getItem('darkMode') === 'dark') {
 // 	localStorage.setItem('darkMode', 'dark')
 // }
 
-window
-	.matchMedia('(prefers-color-scheme: dark)')
-	.addEventListener('change', event => {
-		const newColorSchema = event.matches ? 'dark' : 'light'
+// window
+// 	.matchMedia('(prefers-color-scheme: dark)')
+// 	.addEventListener('change', event => {
+// 		const newColorSchema = event.matches ? 'dark' : 'light'
 
-		if (newColorSchema === 'dark') {
-			btnDarkMode.classList.add('dark-mode-btn--active')
-			document.body.classList.add('dark')
-			localStorage.setItem('darkMode', 'dark')
-		} else {
-			btnDarkMode.classList.remove('dark-mode-btn--active')
-			document.body.classList.remove('dark')
-			localStorage.setItem('darkMode', 'light')
-		}
-	})
+// 		if (newColorSchema === 'dark') {
+// 			btnDarkMode.classList.add('dark-mode-btn--active')
+// 			document.body.classList.add('dark')
+// 			localStorage.setItem('darkMode', 'dark')
+// 		} else {
+// 			btnDarkMode.classList.remove('dark-mode-btn--active')
+// 			document.body.classList.remove('dark')
+// 			localStorage.setItem('darkMode', 'light')
+// 		}
+// 	})
 btnDarkMode.onclick = function (e) {
 	btnDarkMode.classList.toggle('dark-mode-btn--active')
 	document.body.classList.toggle('dark')
