@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Freelancer portfolio</title>
+		<title>Freelancer Portfolio</title>
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
@@ -11,9 +11,8 @@
 			<div class="container">
 				<div class="nav-row">
 					<a href="./index.html" class="logo">
-						<strong>Freelancer</strong> portfolio
+						<strong>Freelancer</strong> Portfolio
 					</a>
-
 					<ul class="nav-list">
 						<li class="nav-list__item">
 							<a href="./index.html" class="nav-list__link">Projects</a>
@@ -29,7 +28,7 @@
 							>
 						</li>
 					</ul>
-					<button class="dark-mode-btn">
+					<button class="dark-mode-btn" aria-label="Toggle dark mode">
 						<img
 							src="icons/switch/sun.svg"
 							alt="Light Mode"
@@ -48,42 +47,45 @@
 		<main class="section">
 			<div class="container">
 				<h1 class="title-1">Contacts</h1>
-
 				<ul class="content-list">
 					<li class="content-list__item">
 						<h2 class="title-2">Location</h2>
 						<p>Moscow, Russia</p>
 					</li>
-
 					<li class="content-list__item">
 						<h2 class="title-2">Telegram</h2>
-						<p>@wedhhe</p>
+						<p><a href="https://t.me/wedhhe">@wedhhe</a></p>
 					</li>
-
 					<li class="content-list__item">
 						<h2 class="title-2">Email</h2>
-						<p>lukyanovKR@gmail.com</p>
+						<p>
+							<a href="mailto:lukyanovKR@gmail.com">lukyanovKR@gmail.com</a>
+						</p>
 					</li>
 				</ul>
 			</div>
 		</main>
+
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__wrapper">
 					<ul class="social">
 						<li class="social__item">
-							<a href="https://vk.com/iyiyiyiyiyiyu">
-								<img src="icons/contact/vk.svg" alt="Link" />
+							<a href="https://vk.com/iyiyiyiyiyiyu" aria-label="VK Profile">
+								<img src="icons/contact/vk.svg" alt="VK" />
 							</a>
 						</li>
 						<li class="social__item">
-							<a href="https://github.com/Xabenskie">
-								<img src="icons/contact/gitHub.svg" alt="Link" />
+							<a
+								href="https://github.com/Xabenskie"
+								aria-label="GitHub Profile"
+							>
+								<img src="icons/contact/gitHub.svg" alt="GitHub" />
 							</a>
 						</li>
 						<li class="social__item">
-							<a href="https://t.me/wedhhe">
-								<img src="icons/contact/telegram.svg" alt="Link" />
+							<a href="https://t.me/wedhhe" aria-label="Telegram Profile">
+								<img src="icons/contact/telegram.svg" alt="Telegram" />
 							</a>
 						</li>
 					</ul>
@@ -92,12 +94,12 @@
 							2024 &copy; Made by
 							<a href="https://github.com/Xabenskie">Xabenskie</a>
 						</p>
-						<br />
-						All rights reserved
+						<p>All rights reserved</p>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 		<script src="js/main.js"></script>
 	</body>
 </html>
